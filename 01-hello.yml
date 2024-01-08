@@ -3,8 +3,7 @@
   tasks:
     - name: Say Hello
       ansible.builtin.debug:
-       msg: Hello
-
+        msg: Hello
 
 - name: Just to say Bye
   hosts: all
