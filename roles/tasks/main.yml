@@ -1,0 +1,4 @@
+- name: Print var from play
+  ansible.builtin.debug:
+    msg: URL == {{ URL }}
+
