@@ -1,17 +1,15 @@
 - name: Say Hello World
   host: all
   task:
-
-  - name: Say Hello World
-    ansible.builtin.debug:
-      msg: Guten Morgan
-
+    - name: Say Hello World
+      ansible.builtin.debug:
+       msg: Guten Morgan
 
 
 - name: Say Hello World
   host: all
   task:
 
-  - name: Say Hello World
-    ansible.builtin.debug:
-      msg: Guten Abend
+    - name: Say Hello World
+      ansible.builtin.debug:
+       msg: Guten Abend
