@@ -1,5 +1,5 @@
 - name: Say Hello World
-  host: all
+  hosts: all
   task:
     - name: Say Hello World
       ansible.builtin.debug:
@@ -7,7 +7,7 @@
 
 
 - name: Say Hello World
-  host: all
+  hosts: all
   task:
     - name: Say Hello World
       ansible.builtin.debug:
